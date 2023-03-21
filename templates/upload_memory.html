@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block head %}
+{% endblock %}
+
+{% block body %}
+<br>
+<br>
+<form action="/uploadmemory" method="POST" enctype="multipart/form-data">
+    Image:
+    <input type="file" name="img"><br><br>
+    Special About Image?:
+    <input type="text" name="msg"> <br><br>
+    <button class="button button2" type="submit">Add face</button>
+</form>
+{% endblock %}

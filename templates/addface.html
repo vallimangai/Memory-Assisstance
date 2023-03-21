@@ -1,0 +1,69 @@
+
+<html>
+<head>
+    <link rel="stylesheet" href="static/css/navbar.css" />
+    <link rel="stylesheet" href="static/css/common.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+               <div class="logo">Memory Assistance</div>
+
+               <ul class="nav-links">
+
+                 <div class="menu">
+
+                  <li><a href="/">Home</a></li>
+
+                  <li><a href="/addface">Add Face</a></li>
+                  <li><a href="/face_reg">Recognise Face</a></li>
+
+                   <li class="services">
+
+                    <a >Games</a>
+
+                  <!-- DROPDOWN MENU -->
+
+                  <ul class="dropdown">
+
+                  <li><a href="/memory">Memory game </a></li>
+
+                  <li><a href="/whac">Whac-a-Mole</a></li>
+                  </ul>
+                  </li>
+                  <li class="services">
+
+                    <a >Memory</a>
+
+                  <!-- DROPDOWN MENU -->
+
+                  <ul class="dropdown">
+
+                  <li><a href="/todo">To Do</a></li>
+
+                  <li><a href="/">Diary</a></li>
+                  </ul>
+                  </li>
+
+                  <li><a href="/">Memory Album</a></li>
+                  <li><a href="/login">Logout</a></li>
+              </div>
+
+              </ul>
+        </nav>
+<div class="center">
+<h1> Add Face</h1><br>
+<form action="/addingface" method="POST" enctype="multipart/form-data">
+    Name:
+    <input type="text" name="name">
+    <br><br>
+     Relation:
+    <input type="text" name="relation">
+    <br><br>
+    Image:
+    <input type="file" name="img"><br><br>
+    <button class="button button2" type="submit">Add face</button>
+</form>
+</div>
+</body>
+</html>

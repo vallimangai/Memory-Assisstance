@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="../static/css/login.css">
+</head>
+<body>
+        <div class="col-sm" style="padding: 2% 5% 0 2%;">
+            <form action="/signup" method="POST" enctype="multipart/form-data">
+                <div class="border">
+                <div class="form-group">
+                    <label for="exampleInputEmail1"><b>Email</b></label><br>
+                    <input type="email" name="email" class="form-control" id="exampleInputEmail1"
+                        aria-describedby="emailHelp" placeholder="Enter email" />
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="username">Username</label><br>
+                    <input type="text" name="usrname" class="form-control" id="username" placeholder="Enter username" />
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="exampleInputPassword1"><b>Password</b></label><br>
+                    <input type="password" name="passwd" class="form-control" id="exampleInputPassword1"
+                        placeholder="Password" />
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="exampleInputPassword1"><b>Password</b></label><br>
+                    <input type="password" name="passwd" class="form-control" id="exampleInputPassword"
+                        placeholder="Password" />
+                </div>
+                <br>
+                <button class="button button2" type="submit">Sign up</button>
+            </div>
+            </form>
+            <br />
+            <p>Already a user? <a href="/login">Sign in</a></p>
+        </div>
+</body>
+</html>

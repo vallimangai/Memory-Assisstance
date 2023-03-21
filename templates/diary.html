@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% block head %}
+    <style>
+    .blog-card {
+      padding: 10px;
+      position: relative;
+      }
+     .center1 {
+        margin: auto;
+        width: 65%;
+
+      }
+      .blog-card{
+        height:150px;
+        width:1000px;
+        border: 10px solid #d9dbda;
+      }
+    </style>
+{% endblock %}
+
+{% block body %}
+{% if entry|length <1 %}
+    <h4 style= "text-align: center">No diary entry found.. Do Entry of today :)</h4>
+{% else %}
+    <br>
+    <br>
+    {% for e in entry%}
+    <div class="container mt-5">
+      <div class="row center1">
+        <div class="col-12">
+          <article class="blog-card">
+            <div class="blog-card__info">
+              <h5>{{e.title}} &nbsp;&nbsp; &nbsp;&nbsp; {{e.date}} </h5>
+              <p>
+                  {% if e.content|length <250 %}
+                       {{ e.content}}
+                  {% else %}
+                    {{e.content[:250]}}
+                  {% endif %}
+              </p>
+              <a href="/read/{{e._id}}" class="btn btn--with-icon"><i class="btn-icon fa fa-long-arrow-right"></i>READ MORE</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+    <br>
+    {% endfor %}
+    {% endif %}
+{% endblock %}

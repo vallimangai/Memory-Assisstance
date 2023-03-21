@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block head %}
+<h1>File Uploads</h1>
+{% endblock %}
+
+{% block body %}
+    <form action = "/success" method = "post" enctype="multipart/form-data">
+        <input type="file" name="file1" />
+        <input type="file" name="file2" />
+        <input type = "submit" value="Upload">
+    </form>
+{% endblock %}

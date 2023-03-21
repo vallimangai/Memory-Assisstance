@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block head %}
+ <style>
+    .blog-card {
+      padding: 10px;
+      position: relative;
+      }
+     .center1 {
+        margin: auto;
+        width: 65%;
+
+      }
+      .blog-card{
+        width:1000px;
+        border: 10px solid #d9dbda;
+      }
+    </style>
+{% endblock %}
+
+{% block body %}
+<br>
+<br>
+ <div class="container mt-5">
+      <div class="row center1">
+        <div class="col-12">
+          <article class="blog-card">
+            <div class="blog-card__info">
+              <h5>{{e.title}} &nbsp;&nbsp; &nbsp;&nbsp; {{e.date}} </h5>
+              <p>
+                  {{e.content}}
+              </p>
+                <br>
+                <button class="button"><a href="/diary"> Back </a></button>
+                <br>
+                <br>
+            </div>
+          </article>
+        </div>
+      </div>
+
+ </div>
+
+{% endblock %}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="../static/css/login.css">
+    
+
+   
+</head>
+<body>
+<div class="centerDiv">
+    <div class="row">
+        <div class="col-sm" style="padding: 2% 5% 0 2%;">
+            <br><br>
+            <div class="form-group">
+            <form action="/login" method="post">
+                <div class="border">
+                <div class="form-group">
+                    <label for="exampleInputEmail1"><b>Email</b></label>
+                    <br>
+                    <input type="email" name="email" class="form-control" id="exampleInputEmail1"
+                        aria-describedby="emailHelp" placeholder="Enter email" />
+                </div>
+               <br>
+                <div class="form-group">
+                    <label for="exampleInputPassword1"><b>Password</b></label>
+                    <input type="password" name="passwd" class="form-control" id="exampleInputPassword1"
+                        placeholder="Password" />
+                </div>
+
+                <br />
+                <p class="warning">{{ message }}</p>
+                <button class="button button2" type="submit">Sign in</button>
+            </div>
+            </form>
+
+            <br />
+            <div class="form-group">
+            <p>Create a new account! <a href="/signup">Sign up</a></p>
+        </div>
+        </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
