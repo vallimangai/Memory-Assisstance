@@ -4,3 +4,10 @@ Amnesia is a condition characterized by the inability to remember certain events
 
 ## Architecture
 ![image](https://user-images.githubusercontent.com/55653139/226675100-3f6c7519-858e-4ae8-b1c8-3ef2539d4392.png)
+
+i.**Face recognition:** This feature helps the user by identifying familiar faces. 
+ii.**Games:** This feature includes games which helps in mental wellbeing of a user. 
+iii.**Music:** This feature helps users to calm down stress, anxiety and improves memory, cognition, and even mood. 
+iv.**Memory albums**: This feature can be a helpful way to organize and review your photos and videos, and to reminisce about past events.
+v.**To-do lists**: This feature can be used as a memory aid, helping users to remember and prioritize tasks 
+vi.**Diary**: This feature functions similarly to a traditional diary that we use to record significant occasions and facts. In addition, this feature creates a summary of the relevant incident for the subsequent encounter with the same person.
