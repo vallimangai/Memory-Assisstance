@@ -11,3 +11,15 @@ Amnesia is a condition characterized by the inability to remember certain events
 **iv.Memory albums**: This feature can be a helpful way to organize and review your photos and videos, and to reminisce about past events.<br>
 **v.To-do lists**: This feature can be used as a memory aid, helping users to remember and prioritize tasks <br>
 **vi.Diary**: This feature functions similarly to a traditional diary that we use to record significant occasions and facts. In addition, this feature creates a summary of the relevant incident for the subsequent encounter with the same person.<br>
+
+## Overall Website view:
+![image](https://user-images.githubusercontent.com/55653139/233778495-0f707859-95cb-4ef8-a1c8-6bda93b5a13a.png)
+
+## to run the project:
+1) Clone the project using
+  git clone https://github.com/vallimangai/Memory-Assisstance.git
+2) Create virtual environment and activate it
+3) Install the requirement:
+  pip install -r requirements.txt
+4) Run hello.py
+  python hello.py
