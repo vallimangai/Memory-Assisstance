@@ -16,10 +16,10 @@ Amnesia is a condition characterized by the inability to remember certain events
 ![image](https://user-images.githubusercontent.com/55653139/233778495-0f707859-95cb-4ef8-a1c8-6bda93b5a13a.png)
 
 ## to run the project:
-1) Clone the project using
+1) Clone the project using <br>
   git clone https://github.com/vallimangai/Memory-Assisstance.git
 2) Create virtual environment and activate it
-3) Install the requirement:
+3) Install the requirement: <br>
   pip install -r requirements.txt
-4) Run hello.py
+4) Run hello.py <br>
   python hello.py
